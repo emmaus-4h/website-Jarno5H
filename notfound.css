@@ -1,0 +1,28 @@
+a {
+	text-decoration:underline;
+  color:white;
+}
+
+
+body {
+	background-color:white;
+	background: repeating-radial-gradient(red, green 10px, blue 10px, pink 20px);
+  background-size:100%;
+}
+
+body, html {
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.turn-back {
+	color:white;
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+  	text-align: center;
+  	width: 100%;
+  	font-size: 20px;
+}
